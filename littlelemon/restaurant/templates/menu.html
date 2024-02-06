@@ -4,18 +4,16 @@
 <h1>Menu</h1>
 <!--Begin col-->
 <div class="column">
-   <!-- Step 14: Create for loop -->
-   {% for item in main_data.menu %}
-      <p>
-         <!-- Step 14: Add DTL variable for name -->
-         {{ item.name }}
-         <span class="menu-price">
-            <!-- Step 14: Add DTL variable for price -->
+    {% for item in menu.menu %}
+    <p>
+        <a href="{% url 'menu_item' pk=item.pk %}">
+            {{ item.name }}
+            </a>
+        <span class="menu-price">
             ${{ item.price }}.00
-         </span>
-      </p>
-   <!-- Step 14: End for loop -->
-   {% endfor %}
+        </span>
+    </p>
+    {% endfor %}
 </div>
 <!--End col-->
 {% endblock %}
