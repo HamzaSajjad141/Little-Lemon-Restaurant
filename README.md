@@ -2,6 +2,9 @@
 
 Welcome to the Little Lemon Restaurant Django web project! This project is designed to showcase a simple restaurant website with features like booking, menu display, and more. 
 
+![Screenshot 2024-03-01 204145](https://github.com/HamzaSajjad141/Little-Lemon-Restaurant/assets/125465047/5f6fcefc-9916-434c-90d8-cbb1bc225ad3)
+
+
 ## Project Structure 📂
 
 - **Project Name**: Little Lemon
